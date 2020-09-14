@@ -1,0 +1,101 @@
+
+
+
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@300;400;500;600&display=swap');
+
+	
+.navbar-brand  span{
+	color: #fed136;
+	font-size:25px;font-weight:700;letter-spacing:0.1em;
+    font-family:'Montserrat', sans-serif;
+}
+.navbar-brand {
+	color: #fff;
+	font-size:25px;
+    font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing:0.1em;
+}
+
+.navbar-nav .nav-item .nav-link{
+	padding: 1.1em 1em!important;
+	font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #3d2514;
+   font-family: ''Montserrat'', sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover{color:##3d2514;}
+.navbar-expand-md .navbar-nav .dropdown-menu{
+	border-top:3px solid #fed136;
+}
+
+
+.banner{
+	background-image:url('../img/banner.png');
+	text-align: left;
+    color: #fff;
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner-text{
+	padding:200px 0 150px 0;
+}
+.banner-heading{
+	
+	font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 20px;
+	color:#fff;
+	
+
+}
+.banner-heading p{
+	font-family: 'Bebas Neue', cursive;
+    border: 2px dashed black;
+      display: inline-block;
+        text-transform: uppercase;
+    color: #3d2514;
+        font-size:18px;
+}
+
+.banner-heading h1{
+text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 900;
+      letter-spacing: 5px;
+      text-shadow: 1px 2px white;
+      color: #3d2514;
+      line-height: 82px;
+      font-size:90px;
+
+}
+
+.banner-heading h2{
+	font-size: 56px;
+    letter-spacing: 4px;
+    text-shadow: 2px 3px white;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+font-size: 60px;
+}
+.text-intro{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	padding-top:30px;
+}
+
